@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+:root{
+--background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+
+
+html {
+  height: 200vh;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.main-nav {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  background: #191a1c;
+  /* height: 100px; */
+font-family: 'Anton', sans-serif;
+
+}
+
+.main-nav>li {
+  /* height: 100%; */
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+  .main-nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+
+
+   padding: 20px 10px 20px 10px;
+
+  /* height: 100%; */
+  }
+
+p, h1, h2, h3, h4, h5, h6 {
+font-family: 'Fira Sans', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6  {
+  color: white;
+}
+p{
+  color: #8D8D8D;
+}
+  a:hover {
+    background-color: #696c70;
+  }
+
+
+  .h2a {
+    position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  }
+
+.active {
+ font-weight: bold;
+background: #999da3;
+}
+
+
+
+
+
+
+
+img {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
