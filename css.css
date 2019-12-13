@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 :root{
---background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+--background:linear-gradient(360deg, #1C1C1C 10%, #494949 100%);
 
-
+}
 html {
   height: 200vh;
 }
@@ -12,6 +12,7 @@ html {
 body {
   height: 100%;
   width: 100%;
+  background: linear-gradient(360deg, #1C1C1C 10%, #494949 100%);
 }
 
 h1 {
